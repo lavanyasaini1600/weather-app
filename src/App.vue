@@ -46,7 +46,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-main style="margin-top=-57px">
+    <v-main style="margin-top:-57px">
       <v-carousel v-model="model" height="100vh" :show-arrows="false">
         <v-carousel-item v-for="city in cities" :key="city">
           <v-sheet :color="getRandomColor()" height="100%" tile>
